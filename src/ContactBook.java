@@ -24,6 +24,7 @@ public class ContactBook {
             choice = userInput.nextInt();
             userInput.nextLine(); // Consume the newline character
 
+            // Perform the selected action based on the user's choice
             switch (choice) {
                 case 1: // For Add contact
                     addContact();
