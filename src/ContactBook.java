@@ -170,7 +170,7 @@ public class ContactBook {
         }
     }
 
-    // Delete a contact from the list
+    // Delete a contact from the list by ID
     private void deleteContact() {
         System.out.print("Enter ID of the contact to delete: ");
         int deleteId = userInput.nextInt();
